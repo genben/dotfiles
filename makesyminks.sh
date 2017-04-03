@@ -11,3 +11,8 @@ curdir=$(dirname $(readlink -f $0))
 # GDB
 # ----------------------------------------
 ln -s $curdir/gdb/gdbinit ~/.gdbinit
+
+# ----------------------------------------
+# TMUX
+# ----------------------------------------
+ln -s $curdir/tmux/tmux.conf ~/.tmux.conf
